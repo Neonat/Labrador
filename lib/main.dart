@@ -155,7 +155,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
                       Expanded(
                           flex: 1,
                           child: GlowImage(
-                              assetPath: 'lib/assets/profile.png',
+                              assetPath: 'lib/assets/profile.jpg',
                               width: 300,
                               height: 300,
                               shadow: imageShadow))

@@ -109,7 +109,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
                                 style: TextStyle(
                                     color: Colors.white70, fontSize: 20)),
                             const SizedBox(height: 8),
-                            const Text('Special Participant',
+                            const Text('Lucky Labrador',
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 48,

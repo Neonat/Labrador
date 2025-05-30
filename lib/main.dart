@@ -163,7 +163,37 @@ class _PortfolioPageState extends State<PortfolioPage> {
                   ),
                 ),
                 // ─── ABOUT ME ─────────────────────────────────────
-                
+                Container(key: _aboutKey),
+               const StaggeredHeader('About Me', lineBefore: true),
+               Padding(
+                 padding:
+                     const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+                 child: Row(
+                   children: [
+                     Expanded(
+                       flex: 1,
+                       child: GlowImage(
+                         assetPath: 'lib/assets/about.png',
+                         width: 300,
+                         height: 225,
+                         fit: BoxFit.cover,
+                         shadow: imageShadow,
+                       ),
+                     ),
+                     const SizedBox(width: 24),
+                     Expanded(
+                       flex: 2,
+                       child: const Text(
+                         'At the age of 6, I unspooled my brother’s correction tape, resulting in the loss of one of his stationery before his exam. On that day I learned two things: the pain of a cane and how gears work.\n\n'
+                         'Today, I am passionate about engineering and problem solving as an aspiring entrepreneur. I’m currently pursuing my degree in SUTD under the STEP Scholarship Programme.',
+                         style: TextStyle(
+                             color: Colors.white70, fontSize: 16, height: 1.5),
+                       ),
+                     ),
+                   ],
+                 ),
+               ),
+
                 // ─── EXPERIENCE ──────────────────────────────────────
                 // ─── PROJECTS ────────────────────────────────────────
                 
